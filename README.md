@@ -50,6 +50,9 @@ The following steps were taken to try and increase model performance:
 - The ASK_AMT column gives information on the asking amount. I used a boxplot to find outliers and removed them
 - This reduced the accuracy score to 0.5557586550712585 - YIKES!
 - I have commented out the code for removing outliers. 
+- Below is a boxplot showing the outliers in the ASK_AMT column. 
+
+![box_plot_ASK_AMT_outliers.png](https://github.com/charliuden/Neural_Network_Charity_Analysis/blob/main/images/box_plot_ASK_AMT_outliers.png)
 
 #### Attempt 3: decrease the number of bins
 - increase the cutoff value for binning, which will decrease the number of bins -may deal with potential overfitting.
